@@ -87,3 +87,39 @@ header {
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
 }
+
+
+/* card div */
+
+.card-section{
+    margin: 50px 8%;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.card-main-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 14px;
+    box-shadow: 2px 2px lightslategray;
+    padding: 12px;
+}
+
+
+.crad-icone{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50px;
+}
