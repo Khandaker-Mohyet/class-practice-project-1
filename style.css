@@ -123,3 +123,33 @@ header {
     padding: 10px;
     border-radius: 50px;
 }
+
+.solution-main{
+    display: flex;
+    margin: 50px 8%;
+    gap: 30px;
+    align-items: center;
+}
+
+.knowledge-img-div{
+    width: 100%;
+}
+
+.knowledge-img{
+    width: 100%;
+}
+
+/* .knowledge-text-div{
+    display: flex;
+    flex-direction: column;
+} */
+
+.check-circle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.margin{
+    margin: 6px 0px;
+}
