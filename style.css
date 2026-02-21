@@ -27,10 +27,7 @@ header {
     height: 674px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-}
-
-#header{
+    /* background-repeat: no-repeat; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,21 +35,23 @@ header {
     gap: 10px;
 }
 
+
+
 .btn-white {
     background-color: white;
     padding: 4px 8px 4px 8px;
     border-radius: 40px;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
-.text-green{
+.text-green {
     color: #469165;
 }
 
-.main-heading{
+.main-heading {
     font-size: 60px;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,26 +59,27 @@ header {
     letter-spacing: 4px;
     margin-bottom: 0px;
     margin-top: 10px;
+    
 }
 
-.hero-para{
+.hero-para {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
 }
 
-.btn-group{
+.btn-group {
     display: flex;
     gap: 14px;
 }
 
-.hero-btn-1{
+.hero-btn-1 {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.hero-btn-2{
+.hero-btn-2 {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -91,22 +91,23 @@ header {
 
 /* card div */
 
-.card-section{
+.card-section {
     margin: 50px 8%;
 }
 
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.card-main-div{
+.card-main-div {
     display: flex;
     gap: 16px;
     margin-top: 50px;
+    justify-content: center;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,43 +119,42 @@ header {
 }
 
 
-.crad-icone{
+.crad-icone {
     background-color: #F95555;
     padding: 10px;
     border-radius: 50px;
 }
 
-.solution-main{
+.solution-main {
     display: flex;
     margin: 50px 8%;
     gap: 30px;
     align-items: center;
 }
 
-.knowledge-img-div{
+.knowledge-img-div {
+    flex: 1;
+}
+
+.knowledge-img {
     width: 100%;
 }
 
-.knowledge-img{
-    width: 100%;
+.knowledge-text-div {
+    flex: 1;
 }
 
-/* .knowledge-text-div{
-    display: flex;
-    flex-direction: column;
-} */
-
-.check-circle{
+.check-circle {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.margin{
+.margin {
     margin: 6px 0px;
 }
 
-.more-clear{
+.more-clear {
     background-color: #F7F6F2;
     margin: 10px 8%;
     text-align: center;
